@@ -107,25 +107,24 @@ export default function Home() {
           {/* Glitch effect text */}
           <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tight relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <span className="relative inline-block">
-              Meet Powerful of
+              Rasakan Kekuatan
               <span className="absolute top-0 left-0 w-full h-full animate-glitch-1 opacity-70">
-                Meet Powerful of
+                Rasakan Kekuatan
               </span>
               <span className="absolute top-0 left-0 w-full h-full animate-glitch-2 opacity-70">
-                Meet Powerful of
+                Rasakan Kekuatan
               </span>
             </span>
             <br />
             <span className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-transparent bg-clip-text animate-gradient">
-              Artificial Intelligence
+              Kecerdasan Buatan
             </span>
             <br />
-            Business Solutions
+            untuk Bisnis Modern
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-            Otomatisasi Bisnis & Chatbot AI untuk UMKM dan Perusahaan Modern.
-            Kami membangun sistem kerja otomatis yang membuat bisnismu makin efisien.
+            Kami hadirkan otomatisasi bisnis & chatbot AI untuk UMKM dan perusahaan Indonesia. Sistem kerja makin efisien, tim lebih ringan.
           </p>
 
           {/* Animated CTA button */}
@@ -179,10 +178,9 @@ export default function Home() {
                 <h3 className="text-7xl font-bold text-red-500 mb-4">
                   <span className="inline-block animate-counter">100</span>+
                 </h3>
-                <h4 className="text-2xl font-bold mb-4">Awesome collection of different blocks</h4>
+                <h4 className="text-2xl font-bold mb-4">Ratusan Komponen Otomatisasi Siap Pakai</h4>
                 <p className="text-gray-400">
-                  Dengan berbagai template workflow, widget chatbot, dan halaman pre-built, 
-                  kami siap membangun solusi AI yang exceptional untuk bisnismu.
+                  Tersedia berbagai template workflow, widget chatbot, dan halaman siap pakai—semua siap dibangun sesuai kebutuhan bisnismu.
                 </p>
               </div>
               {/* Animated background pattern */}
@@ -196,15 +194,15 @@ export default function Home() {
             {/* Interactive hover cards */}
             {[
               {
-                title: "We have created two color schemes for your satisfaction",
-                desc: "Dashboard & chatbot dengan tema light atau dark mode. Sesuaikan dengan brand identity perusahaan Anda.",
-                badges: ["Solutions", "Color scheme"],
+                title: "Tersedia Dua Mode Warna untuk Kenyamanan",
+                desc: "Dashboard & chatbot dengan tema terang maupun gelap, bisa disesuaikan dengan identitas visual perusahaan Anda.",
+                badges: ["Solusi", "Skema warna"],
                 icon: <Sparkles className="w-6 h-6" />
               },
               {
-                title: "Multilingual & translation ready",
-                desc: "Chatbot multibahasa Indonesia, Inggris, dan bahasa daerah. Jangkau lebih banyak customer.",
-                badges: ["Multilingual", "RTL"],
+                title: "Mendukung Multibahasa",
+                desc: "Chatbot siap digunakan dalam bahasa Indonesia, Inggris, hingga bahasa daerah untuk menjangkau lebih banyak pelanggan.",
+                badges: ["Multibahasa", "Dukungan RTL"],
                 icon: <Globe className="w-6 h-6" />
               }
             ].map((card, idx) => (
@@ -239,9 +237,9 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500 to-red-700 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative z-10">
                 <h3 className="text-7xl font-bold mb-4 animate-pulse">90+</h3>
-                <h4 className="text-2xl font-bold mb-2">Pre-built pages in two color schemes</h4>
+                <h4 className="text-2xl font-bold mb-2">Puluhan Halaman Siap Pakai dalam Dua Mode Warna</h4>
                 <p className="text-white/80">
-                  Template siap pakai untuk berbagai industri dan use case bisnis.
+                  Halaman dan komponen siap pakai untuk berbagai industri dan kebutuhan bisnis.
                 </p>
               </div>
             </div>
@@ -253,33 +251,33 @@ export default function Home() {
       <section id="services" className="py-20 px-4 animate-on-scroll">
         <div className={`max-w-7xl mx-auto transition-all duration-1000 ${isVisible.services ? 'opacity-100' : 'opacity-0'}`}>
           <h2 className="text-5xl md:text-6xl font-bold text-center mb-16">
-            Unleashing the
+            Maksimalkan
             <br />
             <span className="bg-gradient-to-r from-red-600 via-orange-500 to-red-500 text-transparent bg-clip-text animate-gradient">
-              Power of AI
+              Kekuatan AI
             </span>
             <br />
-            in shaping the future of technology
+            untuk Masa Depan Bisnis Anda
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 icon: <Zap className="w-7 h-7 text-red-500" />,
-                title: "Workflow Automation",
-                desc: "Otomatisasi proses bisnis end-to-end. Input data otomatis, notifikasi real-time, dan pelaporan tanpa manual entry.",
+                title: "Otomatisasi Alur Kerja",
+                desc: "Otomatisasi proses bisnis dari awal hingga akhir—input data otomatis, notifikasi real-time, dan pelaporan tanpa repot manual.",
                 delay: "0s"
               },
               {
                 icon: <MessageSquare className="w-7 h-7 text-red-500" />,
-                title: "Chatbot Development",
-                desc: "Chatbot AI untuk customer service & internal team. Integrasi WhatsApp, Instagram, dan website.",
+                title: "Pembuatan Chatbot",
+                desc: "Chatbot AI untuk layanan pelanggan maupun tim internal. Integrasi WhatsApp, Instagram, dan website.",
                 delay: "0.1s"
               },
               {
                 icon: <BarChart3 className="w-7 h-7 text-red-500" />,
-                title: "AI Dashboard & Report",
-                desc: "Dashboard analytics real-time dengan AI insights. Laporan otomatis langsung ke WhatsApp/email.",
+                title: "Dashboard & Laporan AI",
+                desc: "Dashboard analytics real-time dengan insight AI. Laporan otomatis langsung ke WhatsApp/email Anda.",
                 delay: "0.2s"
               }
             ].map((service, idx) => (
@@ -296,7 +294,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
                   <p className="text-gray-400 mb-6">{service.desc}</p>
                   <button className="text-red-500 font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
-                    Learn more <ArrowRight className="w-4 h-4" />
+                    Selengkapnya <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
               </div>
@@ -309,33 +307,33 @@ export default function Home() {
       <section id="benefits" className="py-20 px-4 bg-gray-900/50 animate-on-scroll">
         <div className={`max-w-7xl mx-auto transition-all duration-1000 ${isVisible.benefits ? 'opacity-100' : 'opacity-0'}`}>
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            Kenapa Pilih <span className="text-red-500 animate-pulse">Paduka AI Agency?</span>
+            Mengapa Memilih <span className="text-red-500 animate-pulse">Paduka AI Agency?</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
                 icon: <Shield className="w-6 h-6" />,
-                title: "100% White-label Solutions",
-                desc: "Bisnis Anda tetap jadi bintang utama, kami teknisi di balik layar yang invisible.",
+                title: "100% Layanan White-label",
+                desc: "Bisnis Anda tetap menonjol, kami tim teknis di balik layar.",
                 gradient: "from-blue-500 to-purple-500"
               },
               {
                 icon: <Settings className="w-6 h-6" />,
-                title: "Fully Customized, Not Template",
-                desc: "Semua workflow dan chatbot dibangun dari nol sesuai kebutuhan unik bisnis Anda.",
+                title: "Full Kustom, Bukan Template",
+                desc: "Setiap workflow & chatbot kami bangun dari nol, sesuai kebutuhan unik bisnis Anda.",
                 gradient: "from-green-500 to-teal-500"
               },
               {
                 icon: <Headphones className="w-6 h-6" />,
-                title: "Ongoing Support & Improvement",
-                desc: "Bukan sistem 'tinggal pakai', tapi partnership jangka panjang dengan iterasi berkelanjutan.",
+                title: "Dukungan & Pengembangan Berkelanjutan",
+                desc: "Bukan sistem 'langsung pakai', tapi kemitraan jangka panjang dan pengembangan bertahap.",
                 gradient: "from-purple-500 to-pink-500"
               },
               {
                 icon: <Shield className="w-6 h-6" />,
-                title: "Enterprise-grade Security",
-                desc: "Data bisnis Anda ter-enkripsi dan dijaga ketat. Compliance dengan standar keamanan internasional.",
+                title: "Keamanan Setara Perusahaan Besar",
+                desc: "Data bisnis Anda terenkripsi & dijaga ketat, mengikuti standar keamanan terbaik.",
                 gradient: "from-orange-500 to-red-500"
               }
             ].map((item, idx) => (
@@ -367,22 +365,22 @@ export default function Home() {
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in-up">
-            Ready to Transform Your Business
+            Siap Ubah Bisnis Anda?
             <br />
-            with <span className="text-red-500 animate-pulse">AI Technology?</span>
+            dengan <span className="text-red-500 animate-pulse">Teknologi AI?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-10 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Join hundreds of businesses already using our AI solutions
+            Bergabunglah bersama ratusan bisnis lain yang sudah merasakan manfaat AI kami.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <button className="group relative bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 justify-center overflow-hidden">
-              <span className="relative z-10">Start Free Consultation</span>
+              <span className="relative z-10">Mulai Konsultasi Gratis</span>
               <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform relative z-10" />
               <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-orange-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
             </button>
             <button className="bg-transparent border-2 border-gray-700 hover:border-red-500 hover:bg-red-500/10 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300">
-              View Demo
+              Lihat Demo
             </button>
           </div>
         </div>
