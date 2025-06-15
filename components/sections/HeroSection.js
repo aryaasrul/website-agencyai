@@ -1,6 +1,12 @@
 // components/sections/HeroSection.js
 import { motion } from "framer-motion";
-import { TypeAnimation } from "react-type-animation";
+import dynamic from "next/dynamic";
+
+// Dynamically import TypeAnimation with SSR disabled
+const TypeAnimation = dynamic(
+  () => import('react-type-animation').then(mod => ({ default: mod.TypeAnimation })),
+  { ssr: false }
+);
 
 const HeroSection = () => {
   return (
